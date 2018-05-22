@@ -30,7 +30,7 @@ index.html
 ## Pour lancer
 
 sinon voici le lien en production:
-* lien.com
+* javascript-beginer.surge.sh
 
 
 ### Groupe :
