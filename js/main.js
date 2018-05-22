@@ -54,8 +54,24 @@
     }
  }
 
-    var t = document.getElementById('calc-output').innerHTML;
-    function result(a) {
-    var tab = a.slice();
-    
- } 
+    function result() {
+     var k = [];
+     var l = [];
+
+     a = document.getElementById('calc-output').innerHTML;
+     for (var i=0; i < a.length; i++) {
+        if (a[i] != "+" && a[i] != "-" && a[i] != "*" && a[i]!= "/" ){
+                k.push(parseInt(a[i]));
+                var m = k.join("");
+                alert(m);
+                
+            }
+        else {
+            r = calculate(parseInt(m),a[i],parseInt(a[i+1]));
+            alert(r);
+            k=[];
+        }    
+
+        }
+     
+    } 
